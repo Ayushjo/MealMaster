@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --darkblue: #2d3a4a;
+  --gray: #6c757d;
+}
+
+a {
+  color: var(--darkblue);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--gray);
+}
