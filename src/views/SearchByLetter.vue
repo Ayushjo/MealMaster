@@ -1,6 +1,6 @@
 <template>
   <!-- Letter Navigation -->
-  <div class="letters-container mt-12">
+  <div class="letters-container sm:mt-12 mt-60">
     <div class="flex flex-wrap justify-center gap-2 mt-4">
       <router-link
         v-for="letter of letters"

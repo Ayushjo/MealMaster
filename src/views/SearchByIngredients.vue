@@ -1,6 +1,6 @@
 <template>
   <!-- Meal Grid -->
-  <div class="meal-grid mt-16">
+  <div class="meal-grid sm:mt-16 mt-60">
     <MealItem v-for="meal of meals" :key="meal.idMeal" :meal="meal" />
   </div>
 

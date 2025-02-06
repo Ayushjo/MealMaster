@@ -15,3 +15,9 @@ a {
 a:hover {
   color: var(--gray);
 }
+
+body {
+  background: #f8f9fa;
+  color: #2d3a4a;
+  font-family: 'Poppins', sans-serif;
+}

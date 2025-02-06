@@ -1,31 +1,31 @@
 <template>
-  <div class="meal-detail-container max-w-3xl mx-auto p-8 mt-12">
-    <!-- Meal Title -->
+  <div class="meal-detail-container max-w-3xl mx-auto p-8 sm:mt-12 mt-60">
+    
     <h1 class="text-5xl font-bold mb-6 text-center">{{ meal.strMeal }}</h1>
     
-    <!-- Meal Image -->
+    
     <img 
       :src="meal.strMealThumb" 
       :alt="meal.strMeal" 
       class="max-w-full rounded-lg shadow-lg mb-6"
     />
 
-    <!-- Meal Information: Category, Area, Tags -->
+    
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-lg py-4">
       <div><strong class="font-bold">Category:</strong> {{ meal.strCategory }}</div>
       <div><strong class="font-bold">Area:</strong> {{ meal.strArea }}</div>
       <div><strong class="font-bold">Tags:</strong> {{ meal.strTags || 'N/A' }}</div>
     </div>
 
-    <!-- Meal Instructions -->
+   
     <div class="my-6 text-xl font-thin text-gray-900">
       <h2 class="text-3xl font-semibold mb-4">Instructions:</h2>
       <p>{{ meal.strInstructions }}</p>
     </div>
 
-    <!-- Ingredients and Measures Section -->
+   
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-6">
-      <!-- Ingredients List -->
+      
       <div>
         <h2 class="text-2xl font-semibold mb-4">Ingredients</h2>
         <ul class="list-disc pl-6 space-y-2">
@@ -37,7 +37,7 @@
         </ul>
       </div>
 
-      <!-- Measures List -->
+      
       <div>
         <h2 class="text-2xl font-semibold mb-4">Measures</h2>
         <ul class="list-disc pl-6 space-y-2">
@@ -50,7 +50,7 @@
       </div>
     </div>
 
-    <!-- Action Buttons: YouTube and Source -->
+  
     <div class="flex flex-col gap-4">
       <YouTubeButton :href="meal.strYoutube" class="w-full">
         Go To YouTube

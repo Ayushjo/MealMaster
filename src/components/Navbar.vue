@@ -1,27 +1,36 @@
 <template>
   <header class="navbar">
     <!-- Logo -->
-    <router-link class="logo" :to="{ name: 'home' }">
-      MealMaster
-    </router-link>
+    <router-link class="logo" :to="{ name: 'home' }"> MealMaster </router-link>
 
     <!-- Navigation Links -->
     <nav class="nav-links">
-      <router-link class="nav-item" active-class="active" :to="{ name: 'byName' }">
+      <router-link
+        class="nav-item"
+        active-class="active"
+        :to="{ name: 'byName' }"
+      >
         Search Meals
       </router-link>
-      <router-link class="nav-item" active-class="active" :to="{ name: 'byLetter' }">
+      <router-link
+        class="nav-item"
+        active-class="active"
+        :to="{ name: 'byLetter' }"
+      >
         Meals by Letter
       </router-link>
-      <router-link class="nav-item" active-class="active" :to="{ name: 'ingredients' }">
+      <router-link
+        class="nav-item"
+        active-class="active"
+        :to="{ name: 'ingredients' }"
+      >
         Meals by Ingredients
       </router-link>
     </nav>
   </header>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style scoped>
 /* Logo */
@@ -30,7 +39,7 @@
   font-weight: bold;
   color: #2d3a4a;
   text-decoration: none;
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -103,6 +112,4 @@
     padding-top: 10px;
   }
 }
-
 </style>
-

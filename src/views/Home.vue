@@ -68,11 +68,6 @@
 }
 
 /* Add these to your main CSS */
-body {
-  background: #f8f9fa;
-  color: #2d3a4a;
-  font-family: 'Poppins', sans-serif;
-}
 
 /* Optional: Add food icons pattern overlay */
 .home-container::after {

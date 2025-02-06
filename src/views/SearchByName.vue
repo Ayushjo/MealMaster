@@ -1,6 +1,6 @@
 <template>
   <!-- Search Bar -->
-  <div class="search-container mt-6">
+  <div class="search-container sm:mt-6 mt-60">
     <input
       type="text"
       v-model="keyword"

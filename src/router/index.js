@@ -47,10 +47,7 @@ const routes = [
       }
     ],
   },
-  {
-    path: "/guest",
-    component: GuestLayout,
-  }
+  
 ];
 
 const router = createRouter({

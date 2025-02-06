@@ -1,6 +1,6 @@
 <template>
   <!-- Ingredients List -->
-  <div class="ingredients-container mt-16">
+  <div class="ingredients-container sm:mt-16 mt-60">
     <h1 class="text-4xl font-bold mb-6 text-center">Ingredients</h1>
     
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
